@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на сеанс — Массажный кабинет «Гармония»</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <a href="index.html" class="logo">Гармония</a>
+            <div class="header-contact">
+                <a href="tel:+78453000001">+7 (8453) 00-00-01</a>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <div class="nav-inner">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="specialists.html">Специалисты</a>
+                <a href="prices.html">Цены</a>
+                <a href="contacts.html">Контакты</a>
+                <a href="appointment.html" class="active">Запись</a>
+                <a href="feedback.html">Обратная связь</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section">
+                <h1>Запись на сеанс</h1>
+                <p style="text-align: center; color: var(--primary); margin-bottom: 40px;">Заполните три шага — администратор свяжется с вами для подтверждения</p>
+
+                <form class="appointment-form">
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <div class="step-body">
+                            <h3>Ваши данные</h3>
+                            <div class="step-row">
+                                <input type="text" name="fio" placeholder="ФИО" required>
+                                <input type="tel" name="phone" placeholder="Телефон" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <div class="step-body">
+                            <h3>Выбор услуги</h3>
+                            <select name="service" required>
+                                <option value="">Выберите услугу</option>
+                                <option>Классический массаж спины</option>
+                                <option>Общий классический массаж</option>
+                                <option>Лечебный массаж</option>
+                                <option>Релакс-массаж</option>
+                                <option>Спортивный массаж</option>
+                                <option>Антицеллюлитный массаж</option>
+                                <option>Лимфодренажный массаж</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <div class="step-body">
+                            <h3>Дата и время</h3>
+                            <div class="step-row">
+                                <input type="date" name="date" required>
+                                <input type="time" name="time" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Записаться на сеанс</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-col"><h3>Гармония</h3><p>Массажный кабинет для взрослых.</p></div>
+            <div class="footer-col"><h3>Контакты</h3><p><a href="tel:+78453000001">+7 (8453) 00-00-01</a></p><p><a href="mailto:info@garmoniya-massage.ru">info@garmoniya-massage.ru</a></p></div>
+            <div class="footer-col"><h3>График работы</h3><p>Ежедневно: 9:00 – 21:00</p></div>
+            <div class="footer-col"><h3>Разделы</h3><p><a href="prices.html">Цены</a></p><p><a href="feedback.html">Обратная связь</a></p></div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Массажный кабинет «Гармония».</p></div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
